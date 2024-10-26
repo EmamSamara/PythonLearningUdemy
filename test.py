@@ -34,6 +34,9 @@ number=int(input('enter a number to check if its even or odd '))
 if number%2==0:print('the number ', number , 'is even')
 else:print('the number ', number , 'is odd')
 
+num =int(input('please enter a number : '))  #the use enter a number and the program print the number decreasing to zero
+for i in range(num , -1 ,-1):print(i)
+
 
 
 
